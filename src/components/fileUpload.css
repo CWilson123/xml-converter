@@ -1,0 +1,27 @@
+.uploadBox {
+	background-color: var(--blue-2);
+	color: white;
+	font-weight: 30;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.hidden {
+	display: none;
+}
+.custom-file-upload {
+	min-height: 50px;
+	display: inline-block;
+	background-color: var(--yellow-1);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
